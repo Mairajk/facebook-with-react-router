@@ -1,0 +1,139 @@
+
+.header {
+    width: 100%;
+  }
+  
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+  }
+  
+  .left .facebookLogo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .navProfilePhoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .right>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8DADF;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  
+  .left {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: 5px;
+  }
+  
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 0px 110px;
+  }
+  
+  .center .gamingLogo {
+    font-size: 22px;
+  }
+  
+  .right {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin-right: 20px;
+  }
+  
+  .right .menuLogo {
+    font-weight: bolder;
+  }
+  
+  .right .rightLogo {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  .inputDiv input {
+    border: 0px solid black;
+    background-color: #F0F2F5;
+    font-size: 15px;
+    padding: 7px 8px 9px;
+    width: 200px;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .inputDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F2F5;
+    border-radius: 20px;
+    width: 240px;
+    height: 40px;
+  }
+  
+  .inputDiv i {
+    font-size: 20px;
+    color: #606266;
+  }
+  
+  .navLogo {
+    font-size: 28px;
+  }
+  
+  .groupsLogo {
+    border: 2px solid #606266;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 22px;
+    height: 22px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centerLogo {
+    color: #606266;
+    font-weight: 100;
+  
+  }
+  
+  .center>ul {
+    width: 110px;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center>ul>li{
+    width: 110px;
+    display: flex;
+    height:37px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+  
